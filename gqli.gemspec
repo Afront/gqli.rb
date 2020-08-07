@@ -33,4 +33,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'simplecov'
   gem.add_development_dependency 'webmock', '~> 1', '>= 1.17.3'
   gem.add_development_dependency 'tins', '~> 1.6.0'
+  gem.add_development_dependency 'rbs', '~> 0.9'
+
 end

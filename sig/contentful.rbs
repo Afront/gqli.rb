@@ -1,0 +1,3 @@
+module GQLi::Contentful
+  def self.create: (untyped space, untyped access_token, ?environment: untyped, ?validate_query: untyped) -> untyped
+end

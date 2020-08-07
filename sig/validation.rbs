@@ -1,0 +1,45 @@
+class GQLi::Validation
+  public
+
+  def errors: () -> untyped
+
+  def root: () -> untyped
+
+  def schema: () -> untyped
+
+  def valid?: () -> untyped
+
+  private
+
+  def initialize: (untyped schema, untyped root) -> untyped
+
+  def non_null_type: (untyped non_null) -> untyped
+
+  def remove_alias: (untyped name) -> untyped
+
+  def type_for: (untyped field_type) -> untyped
+
+  def types: () -> untyped
+
+  def valid_array_node?: (untyped node_type, untyped node) -> untyped
+
+  def valid_match_node?: (untyped parent_type, untyped node) -> untyped
+
+  def valid_object_node?: (untyped node_type, untyped node) -> untyped
+
+  def validate_directives: (untyped node) -> untyped
+
+  def validate_hash_value: (untyped arg_type, untyped value, untyped for_arg) -> untyped
+
+  def validate_nesting_node: (untyped node_type, untyped node) -> untyped
+
+  def validate_node: (untyped parent_type, untyped node) -> untyped
+
+  def validate_params: (untyped node_type, untyped node) -> untyped
+
+  def validate_type: (untyped `type`) -> untyped
+
+  def validate_value_for_type: (untyped arg_type, untyped value, untyped for_arg) -> untyped
+
+  def value_type_error: (untyped is_type, untyped should_be, untyped for_arg) -> untyped
+end

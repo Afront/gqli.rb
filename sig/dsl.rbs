@@ -1,0 +1,23 @@
+module GQLi::DSL
+  def self.enum: (untyped value) -> untyped
+
+  def self.fragment: (untyped name, untyped on) { (*untyped) -> untyped } -> untyped
+
+  def self.mutation: (?untyped name) { (*untyped) -> untyped } -> untyped
+
+  def self.query: (?untyped name) { (*untyped) -> untyped } -> untyped
+
+  def self.subscription: (?untyped name) { (*untyped) -> untyped } -> untyped
+
+  public
+
+  def enum: (untyped value) -> untyped
+
+  def fragment: (untyped name, untyped on) { (*untyped) -> untyped } -> untyped
+
+  def mutation: (?untyped name) { (*untyped) -> untyped } -> untyped
+
+  def query: (?untyped name) { (*untyped) -> untyped } -> untyped
+
+  def subscription: (?untyped name) { (*untyped) -> untyped } -> untyped
+end

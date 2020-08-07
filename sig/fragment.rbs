@@ -1,0 +1,11 @@
+class GQLi::Fragment < GQLi::Base
+  public
+
+  def __on_type: () -> untyped
+
+  def to_gql: () -> untyped
+
+  private
+
+  def initialize: (untyped name, untyped on) { (*untyped) -> untyped } -> untyped
+end

@@ -1,0 +1,29 @@
+class GQLi::Introspection
+  public
+
+  def mutation_type: () -> untyped
+
+  def query_type: () -> untyped
+
+  def schema: () -> untyped
+
+  def subscription_type: () -> untyped
+
+  def types: () -> untyped
+
+  def valid?: (untyped query) -> untyped
+
+  def validate: (untyped query) -> untyped
+
+  private
+
+  def initialize: (untyped client) -> untyped
+end
+
+GQLi::Introspection::FullType: GQLi::Fragment
+
+GQLi::Introspection::InputValue: GQLi::Fragment
+
+GQLi::Introspection::IntrospectionQuery: GQLi::Query
+
+GQLi::Introspection::TypeRef: GQLi::Fragment

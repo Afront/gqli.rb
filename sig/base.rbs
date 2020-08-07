@@ -1,0 +1,21 @@
+class GQLi::Base
+  public
+
+  def ___: (untyped fragment) -> untyped
+
+  def __depth: () -> untyped
+
+  def __enum: (untyped value) -> untyped
+
+  def __name: () -> untyped
+
+  def __node: (untyped name, ?untyped params) { (*untyped) -> untyped } -> untyped
+
+  def __nodes: () -> untyped
+
+  def __on: (untyped type_name) { (*untyped) -> untyped } -> untyped
+
+  private
+
+  def initialize: (?untyped name, ?untyped depth) { (*untyped) -> untyped } -> untyped
+end

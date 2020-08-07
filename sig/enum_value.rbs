@@ -1,0 +1,11 @@
+class GQLi::EnumValue
+  public
+
+  def to_s: () -> untyped
+
+  def value: () -> untyped
+
+  private
+
+  def initialize: (untyped value) -> untyped
+end

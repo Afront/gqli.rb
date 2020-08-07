@@ -1,0 +1,17 @@
+class GQLi::Node < GQLi::Base
+  public
+
+  def __params: () -> untyped
+
+  def to_gql: () -> untyped
+
+  private
+
+  def __directive: (untyped params) -> untyped
+
+  def __directive?: (untyped params) -> untyped
+
+  def __params_to_s: (untyped params, ?untyped initial) -> untyped
+
+  def initialize: (untyped name, ?untyped params, ?untyped depth) { (*untyped) -> untyped } -> untyped
+end

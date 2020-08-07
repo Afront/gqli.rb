@@ -1,0 +1,23 @@
+class GQLi::Client
+  public
+
+  def execute: (untyped query) -> untyped
+
+  def execute!: (untyped query) -> untyped
+
+  def headers: () -> untyped
+
+  def params: () -> untyped
+
+  def schema: () -> untyped
+
+  def url: () -> untyped
+
+  def valid?: (untyped query) -> untyped
+
+  def validate_query: () -> untyped
+
+  private
+
+  def initialize: (untyped url, ?params: untyped, ?headers: untyped, ?validate_query: untyped) -> untyped
+end

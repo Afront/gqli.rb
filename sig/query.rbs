@@ -1,0 +1,9 @@
+class GQLi::Query < GQLi::Base
+  public
+
+  def __execute: (untyped client) -> untyped
+
+  def to_gql: () -> untyped
+
+  def to_s: () -> untyped
+end
